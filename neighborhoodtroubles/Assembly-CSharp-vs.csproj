@@ -46,15 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Jump.cs" />
-     <Compile Include="Assets\keyboardInput.cs" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>C:/Users/josep_000/Documents/GitHub/cse440/neighborhoodtroubles/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{1C008509-D138-923C-40EC-3DC61E6C3989}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+     <Compile Include="Assets\Scripts\Jump.cs" />
+     <Compile Include="Assets\Scripts\keyboardInput.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

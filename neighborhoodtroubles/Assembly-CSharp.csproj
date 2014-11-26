@@ -46,14 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Jump.cs" />
-     <Compile Include="Assets\keyboardInput.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{1C008509-D138-923C-40EC-3DC61E6C3989}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{F993FB8F-E7E0-8EDB-71C7-027B4056AF1B}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+     <Compile Include="Assets\Scripts\Jump.cs" />
+     <Compile Include="Assets\Scripts\keyboardInput.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
